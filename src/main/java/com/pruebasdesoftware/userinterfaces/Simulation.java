@@ -16,6 +16,9 @@ public class Simulation {
             .locatedBy("//*[@id=\"boton-simular\"]");
     public static final Target SIMULATION_DONE_TEXT = Target.the("simulation done text")
             .locatedBy("//*[@id=\"title\"]");
+
+    public static final Target ERROR_TEXT = Target.the("simulation done text")
+            .locatedBy("//*[@id=\"error-valor-minimo\"]\n");
 }
 
 
